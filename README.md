@@ -20,23 +20,21 @@ Connect to OpenAI, Anthropic (Claude), Google Gemini, Groq, Mistral, OpenRouter,
 
 ---
 
-## Requirements
-
-| Tool | Version |
-|------|---------|
-| Xcode | 15+ |
-| iOS target | 17+ |
-| Swift | 5.9+ |
-| Firebase SDK | via Swift Package Manager |
-
----
-
 ## Screenshots
 
-<>
+### Mac
 
+#### Contact Screen
+![Contact Screen](images/mac-contact.png)
 
+#### Settings Screen
+![Settings Screen](images/mac-settings.png)
 
+#### Chat Screen with Provider Menu
+![Chat Screen with Provider Menu](images/mac-chat-menu.png)
+
+#### Chat Screen with Message
+![Chat Screen with Message](images/mac-chat-message.png)
 
 ---
 
