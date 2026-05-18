@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Ai Nexus</string>
+	<key>CFBundleDisplayName</key>
+	<string>Ai Nexus</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.770964279383-6esf2lc0h0skric9vjq635mgk2pj1ou8</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need microphone access to transcribe your voice to text in the chat.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>We use speech recognition to convert your spoken words into messages.</string>
+</dict>
+</plist>

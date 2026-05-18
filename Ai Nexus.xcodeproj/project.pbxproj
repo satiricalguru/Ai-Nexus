@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		041693872F977BE00061AA9A /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 041693862F977BE00061AA9A /* GoogleSignIn */; };
+		041693892F977BE00061AA9A /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 041693882F977BE00061AA9A /* GoogleSignInSwift */; };
+		0416938C2F9780FE0061AA9A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0416938B2F9780FE0061AA9A /* FirebaseAuth */; };
+		0416938E2F9781050061AA9A /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0416938D2F9781050061AA9A /* FirebaseCore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		0410A2582F958673006AA277 /* Ai Nexus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ai Nexus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +30,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041693872F977BE00061AA9A /* GoogleSignIn in Frameworks */,
+				0416938C2F9780FE0061AA9A /* FirebaseAuth in Frameworks */,
+				0416938E2F9781050061AA9A /* FirebaseCore in Frameworks */,
+				041693892F977BE00061AA9A /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				0410A25A2F958673006AA277 /* Ai Nexus */,
+				0416938A2F9780FE0061AA9A /* Frameworks */,
 				0410A2592F958673006AA277 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +55,13 @@
 				0410A2582F958673006AA277 /* Ai Nexus.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0416938A2F9780FE0061AA9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,6 +84,10 @@
 			);
 			name = "Ai Nexus";
 			packageProductDependencies = (
+				041693862F977BE00061AA9A /* GoogleSignIn */,
+				041693882F977BE00061AA9A /* GoogleSignInSwift */,
+				0416938B2F9780FE0061AA9A /* FirebaseAuth */,
+				0416938D2F9781050061AA9A /* FirebaseCore */,
 			);
 			productName = "Ai Nexus";
 			productReference = 0410A2582F958673006AA277 /* Ai Nexus.app */;
@@ -94,6 +117,10 @@
 			);
 			mainGroup = 0410A24F2F958673006AA277;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				041693842F977BBF0061AA9A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				041693852F977BE00061AA9A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0410A2592F958673006AA277 /* Products */;
 			projectDirPath = "";
@@ -246,14 +273,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Ai Nexus/Ai Nexus.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UD9K9FVDGU;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ai-Nexus-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -290,14 +329,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Ai Nexus/Ai Nexus.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UD9K9FVDGU;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ai-Nexus-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -351,6 +402,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		041693842F977BBF0061AA9A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.12.1;
+			};
+		};
+		041693852F977BE00061AA9A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		041693862F977BE00061AA9A /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 041693852F977BE00061AA9A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		041693882F977BE00061AA9A /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 041693852F977BE00061AA9A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		0416938B2F9780FE0061AA9A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 041693842F977BBF0061AA9A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0416938D2F9781050061AA9A /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 041693842F977BBF0061AA9A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0410A2502F958673006AA277 /* Project object */;
 }

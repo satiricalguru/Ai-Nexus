@@ -1,0 +1,50 @@
+# ========================================================
+# Xcode / Swift – .gitignore for Ai Nexus
+# ========================================================
+
+# ---- macOS junk ----
+.DS_Store
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---- Xcode build artefacts ----
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# ---- SPM / CocoaPods / Carthage ----
+Pods/
+Cartfile.resolved
+.build/
+*.resolved
+
+# ---- Firebase & Sensitive Config (NEVER commit real keys) ----
+GoogleService-Info.plist
+*.p8
+*.p12
+*.cer
+*.mobileprovision
+AuthKey_*.p8
+Secrets.swift
+APIKeys.swift
+
+# ---- Dev scratch files ----
+temp_plan.txt
+*.tmp
+*.log
+
+# ---- Xcode workspace crash logs ----
+*.crash
