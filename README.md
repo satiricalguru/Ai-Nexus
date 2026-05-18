@@ -36,6 +36,20 @@ Connect to OpenAI, Anthropic (Claude), Google Gemini, Groq, Mistral, OpenRouter,
 #### Chat Screen with Message
 ![Chat Screen with Message](images/mac-chat-message.png)
 
+### iPhone
+
+#### Settings Screen
+![iPhone Settings Screen](images/iphone-settings.png)
+
+#### What's New Screen
+![iPhone What's New Screen](images/iphone-whats-new.png)
+
+#### API Settings Screen
+![iPhone API Settings Screen](images/iphone-api-settings.png)
+
+#### Chat Screen
+![iPhone Chat Screen](images/iphone-chat.png)
+
 ---
 
 ## Setup
