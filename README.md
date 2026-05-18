@@ -46,12 +46,12 @@ Connect to OpenAI, Anthropic (Claude), Google Gemini, Groq, Mistral, OpenRouter,
 ### iPhone
 
 | Settings | What's New |
-|----------|-----------|
-| ![iPhone Settings](docs/screenshots/iphone-settings.jpg) | ![iPhone What's New](docs/screenshots/iphone-whats-new.jpg) |
+|:---:|:---:|
+| <img src="docs/screenshots/iphone-settings.jpg" alt="iPhone Settings" height="400" /> | <img src="docs/screenshots/iphone-whats-new.jpg" alt="iPhone What's New" height="400" /> |
 
 | API Settings | Chat |
-|--------------|------|
-| ![iPhone API Settings](docs/screenshots/iphone-api-settings.jpg) | ![iPhone Chat](docs/screenshots/iphone-chat.jpg) |
+|:---:|:---:|
+| <img src="docs/screenshots/iphone-api-settings.jpg" alt="iPhone API Settings" height="400" /> | <img src="docs/screenshots/iphone-chat.jpg" alt="iPhone Chat" height="400" /> |
 
 ---
 
