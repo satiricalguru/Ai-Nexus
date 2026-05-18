@@ -20,35 +20,38 @@ Connect to OpenAI, Anthropic (Claude), Google Gemini, Groq, Mistral, OpenRouter,
 
 ---
 
+## Requirements
+
+| Tool | Version |
+|------|---------|
+| Xcode | 15+ |
+| iOS target | 17+ |
+| Swift | 5.9+ |
+| Firebase SDK | via Swift Package Manager |
+
+---
+
 ## Screenshots
 
 ### Mac
 
-#### Contact Screen
-![Contact Screen](images/mac-contact.png)
+| Contact | Settings |
+|---------|----------|
+| ![Contact Screen](docs/screenshots/mac-contact.png) | ![Settings Screen](docs/screenshots/mac-settings.png) |
 
-#### Settings Screen
-![Settings Screen](images/mac-settings.png)
-
-#### Chat Screen with Provider Menu
-![Chat Screen with Provider Menu](images/mac-chat-menu.png)
-
-#### Chat Screen with Message
-![Chat Screen with Message](images/mac-chat-message.png)
+| Chat Menu | Chat Message |
+|-----------|--------------|
+| ![Chat with Provider Menu](docs/screenshots/mac-chat-menu.png) | ![Chat with Message](docs/screenshots/mac-chat-message.png) |
 
 ### iPhone
 
-#### Settings Screen
-![iPhone Settings Screen](images/iphone-settings.png)
+| Settings | What's New |
+|----------|-----------|
+| ![iPhone Settings](docs/screenshots/iphone-settings.png) | ![iPhone What's New](docs/screenshots/iphone-whats-new.png) |
 
-#### What's New Screen
-![iPhone What's New Screen](images/iphone-whats-new.png)
-
-#### API Settings Screen
-![iPhone API Settings Screen](images/iphone-api-settings.png)
-
-#### Chat Screen
-![iPhone Chat Screen](images/iphone-chat.png)
+| API Settings | Chat |
+|--------------|------|
+| ![iPhone API Settings](docs/screenshots/iphone-api-settings.png) | ![iPhone Chat](docs/screenshots/iphone-chat.png) |
 
 ---
 
