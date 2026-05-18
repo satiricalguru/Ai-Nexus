@@ -79,13 +79,13 @@ Launch the app → Settings → API Settings, and paste your keys for whichever 
 
 | Provider | Example Models |
 |----------|---------------|
-| OpenAI | gpt-4.1, gpt-4.1-mini, gpt-4o-mini |
-| Anthropic | claude-3.7-sonnet, claude-3.5-haiku |
-| Google | gemini-2.5-pro, gemini-2.5-flash |
+| OpenAI | gpt-5.5, gpt-5.4-mini, gpt-4o-mini |
+| Anthropic | claude-4.6-sonnet, claude-4.5-haiku |
+| Google | gemini-3.1-pro, gemini-3.1-flash |
 | Groq | llama-3.3-70b-versatile, mixtral-8x7b |
 | Mistral | mistral-large, pixtral-large |
-| OpenRouter | deepseek/deepseek-chat, qwen/qwen-2.5-coder |
-| Ollama | llama3, mistral, phi3 (local) |
+| OpenRouter | deepseek/deepseek-chat, qwen/qwen-3-coder |
+| Ollama | llama3, mistral, phi3, gemma4 ,(local models) |
 
 ---
 
@@ -130,4 +130,4 @@ Pull requests are welcome! Please open an issue first for major changes.
 
 MIT © Jatin Pandey
 
-Developed by **Satirical Guru** , **Claude** , **Xcode** & **Antigravity** .
+Developed by **Satirical Guru** , **Codex** , **Claude** , **Xcode** & **Antigravity** .
