@@ -4,13 +4,6 @@ A powerful, multi-provider AI chat app for iOS/macOS built with SwiftUI.
 
 Connect to OpenAI, Anthropic (Claude), Google Gemini, Groq, Mistral, OpenRouter, and local Ollama models — all from one clean interface.
 
-<p align="center">
-  <img src="Screenshots/chat_screen.jpg" width="23%" alt="Chat Screen" />
-  <img src="Screenshots/whats_new_screen.jpg" width="23%" alt="What's New" />
-  <img src="Screenshots/settings_screen.jpg" width="23%" alt="Settings Screen" />
-  <img src="Screenshots/api_settings_screen.jpg" width="23%" alt="API Settings" />
-</p>
-
 ---
 
 ## Features
@@ -54,11 +47,11 @@ Connect to OpenAI, Anthropic (Claude), Google Gemini, Groq, Mistral, OpenRouter,
 
 | Settings | What's New |
 |----------|-----------|
-| ![iPhone Settings](docs/screenshots/iphone-settings.png) | ![iPhone What's New](docs/screenshots/iphone-whats-new.png) |
+| ![iPhone Settings](docs/screenshots/iphone-settings.jpg) | ![iPhone What's New](docs/screenshots/iphone-whats-new.jpg) |
 
 | API Settings | Chat |
 |--------------|------|
-| ![iPhone API Settings](docs/screenshots/iphone-api-settings.png) | ![iPhone Chat](docs/screenshots/iphone-chat.png) |
+| ![iPhone API Settings](docs/screenshots/iphone-api-settings.jpg) | ![iPhone Chat](docs/screenshots/iphone-chat.jpg) |
 
 ---
 
