@@ -1,4 +1,4 @@
-# Ai Nexus
+# Ai Nexus 🇳
 
 A powerful, multi-provider AI chat app for iOS/macOS built with SwiftUI.
 
@@ -28,6 +28,15 @@ Connect to OpenAI, Anthropic (Claude), Google Gemini, Groq, Mistral, OpenRouter,
 | iOS target | 17+ |
 | Swift | 5.9+ |
 | Firebase SDK | via Swift Package Manager |
+
+---
+
+## Screenshots
+
+<>
+
+
+
 
 ---
 
@@ -120,3 +129,5 @@ Pull requests are welcome! Please open an issue first for major changes.
 ## License
 
 MIT © Jatin Pandey
+
+Developed by **Satirical Guru** , **Claude** , **Xcode** & **Antigravity** .
